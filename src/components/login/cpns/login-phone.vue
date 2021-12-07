@@ -1,15 +1,15 @@
 <template>
-  <div class="app">
-    <router-view></router-view>
-  </div>
+  <div class="login_phone">1</div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'App'
+  setup() {
+    return {}
+  }
 })
 </script>
 
-<style lang="less"></style>
+<style scoped lang="less"></style>
